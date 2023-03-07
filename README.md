@@ -99,12 +99,12 @@ python3 face_detection_engine.py
 ```
 
 -----------------------
-# Backend for Simple Knowsledage backend
+# Backend for Simple Knowledge Backend
 
-#### Task 1 [ GRAPH QL ]
+#### Task 4 [ GRAPH QL or RESTfulAPI ]
 1. Import data to database.
 
-2. Change type primary key from "int" to "UUID" and make sturture for support 2 language.
+2. Change type primary key from "int" to "UUID" and make sturture for supporting 2 languages.
 
 3. Generate by ORM format output genaral method (GET POST PUT PATCH and DELETE) 
     ```
@@ -115,16 +115,16 @@ python3 face_detection_engine.py
     DELETE — D(elete) 
     ```  
 
-4. This able serch and filter.
+4. Enable able serch and filter function.
 
-5. Genarate Test Scipt for test API.
+5. Genarate Test Scipt for testing API.
 
 ------------------------------------
         
-#### Task 2 [ REST API ]
-## Problem Description
+#### Task 5 [ REST API ]
+##### Zombie Test Description
 
-ZSSN (Zombie Survival Social Network). The world as we know it has fallen into an apocalyptic scenario. A laboratory-made virus is transforming human beings and animals into zombies, hungry for fresh flesh.
+ZSSN (Zombie Survival Social Network). The world as we know has fallen into an apocalyptic scenario. A laboratory-made virus is transforming human beings and animals into zombies, hungry for fresh flesh.
 
 You, as a zombie resistance member (and the last survivor who knows how to code), was designated to develop a system to share resources between non-infected humans.
 
@@ -189,12 +189,12 @@ In order to accomplish this, the API must fulfill the following use cases:
 
 ---------------------------------------
 
-#### Task 3
+#### Task 6
 
-Genarate Web Page for show data fron 2 task using HTTPS Protocal 
+Genarate Web Page for showing of 2 task using HTTPS Protocal 
 
-1. Run Task 1 and 2 and this task such as diiference host (recommend using Docker)
+1. Run Task 1 and Task 2 in difference hosts (recommend using Docker)
 
 2. Create simple page for show and management 2 API over HTTPS Protocal
 
-3. Able Create Read Update Delete data from API.
+3. Enable Function Create Read Update Delete data from API.
