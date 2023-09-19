@@ -106,12 +106,12 @@ python3 face_detection_engine.py
 
 2. Change type primary key from "int" to "UUID" and make sturture for supporting 2 languages.
 3. API Path require able to Create, Retrieve, Update, Delete
-```
-- /geograohies
-- /provinces
-- /amphures
-- /tambons
-```
+   ```
+   - /geograohies
+   - /provinces
+   - /amphures
+   - /tambons
+   ```
 
 4. Generate by ORM format output genaral method (GET POST PUT PATCH and DELETE) 
     ```
