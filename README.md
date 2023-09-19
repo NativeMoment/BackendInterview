@@ -105,8 +105,15 @@ python3 face_detection_engine.py
 1. Import data to database.
 
 2. Change type primary key from "int" to "UUID" and make sturture for supporting 2 languages.
+3. API Path require able to Create, Retrieve, Update, Delete
+```
+- /geograohies
+- /provinces
+- /amphures
+- /tambons
+```
 
-3. Generate by ORM format output genaral method (GET POST PUT PATCH and DELETE) 
+4. Generate by ORM format output genaral method (GET POST PUT PATCH and DELETE) 
     ```
     GET — R(etrieve) 
     POST — C(reate) 
@@ -115,9 +122,9 @@ python3 face_detection_engine.py
     DELETE — D(elete) 
     ```  
 
-4. Enable able serch and filter function.
+5. Enable able serch and filter function.
 
-5. Genarate Test Scipt for testing API.
+6. Genarate Test Scipt for testing API.
 
 ------------------------------------
         
