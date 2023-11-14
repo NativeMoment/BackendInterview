@@ -122,7 +122,7 @@ python3 face_detection_engine.py
     DELETE — D(elete) 
     ```  
 
-5. Enable able serch and filter function.
+5. Abel search and filter function. using name of content or name parent or child of relation.
 
 6. Genarate Test Scipt for testing API.
 
