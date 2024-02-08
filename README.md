@@ -19,7 +19,7 @@ However, we need to run engine in the high performance server.
 4. You may use any queue (**not required**).
 
 #### Extra points
-We don't required these, but you may show your skills in these ways:
+We required these, but you may show your skills in these ways:
 - clean and readable code
 - good object oriented style
 - apply HTTPS instead of HTTP
@@ -57,7 +57,7 @@ We don't required these, but you may show your skills in these ways:
 4. Connect to bankend using API
 
 #### Extra points
-We don't required these, but you may show your skills in these ways:
+We required these, but you may show your skills in these ways:
 - clean and readable code
 - good object oriented style
 - apply HTTPS instead of HTTP
@@ -97,111 +97,3 @@ source venv/bin/activate
 ```bash
 python3 face_detection_engine.py
 ```
-
------------------------
-# Backend for Simple Knowledge Backend
-
-#### Task 4 [ GRAPH QL or RESTfulAPI ]
-1. Import data to database.
-
-2. Change type primary key from "int" to "UUID" and make sturture for supporting 2 languages.
-3. API Path require able to Create, Retrieve, Update, Delete
-   ```
-   - /geograohies
-   - /provinces
-   - /amphures
-   - /tambons
-   ```
-
-4. Generate by ORM format output genaral method (GET POST PUT PATCH and DELETE) 
-    ```
-    GET — R(etrieve) 
-    POST — C(reate) 
-    PUT — U(pdate) 
-    PATCH - U(pdate)
-    DELETE — D(elete) 
-    ```  
-
-5. Abel search and filter function. using name of content or name parent or child of relation.
-
-6. Genarate Test Scipt for testing API.
-
-------------------------------------
-        
-#### Task 5 [ REST API ]
-##### Zombie Test Description
-
-ZSSN (Zombie Survival Social Network). The world as we know has fallen into an apocalyptic scenario. A laboratory-made virus is transforming human beings and animals into zombies, hungry for fresh flesh.
-
-You, as a zombie resistance member (and the last survivor who knows how to code), was designated to develop a system to share resources between non-infected humans.
-
-## Requirements
-
-You will develop a ***REST API*** (yes, we care about architecture design even in the midst of a zombie apocalypse!), which will store information about the survivors, as well as the resources they own.
-
-In order to accomplish this, the API must fulfill the following use cases:
-
-- **Add survivors to the database**
-
-  A survivor must have a *name*, *age*, *gender* and *last location (latitude, longitude)*.
-
-  A survivor also has an inventory of resources of their own property (which you need to declare when upon the registration of the survivor).
-
-- **Update survivor location**
-
-  A survivor must have the ability to update their last location, storing the new latitude/longitude pair in the base (no need to track locations, just replacing the previous one is enough).
-
-- **Flag survivor as infected**
-
-  In a chaotic situation like that, it's inevitable that a survivor may get contaminated by the virus.  When this happens, we need to flag the survivor as infected.
-
-  An infected survivor cannot trade with others, can't access/manipulate their inventory, nor be listed in the reports (infected people are kinda dead anyway, see the item on reports below).
-
-  **A survivor is marked as infected when at least three other survivors report their contamination.**
-
-  When a survivor is infected, their inventory items become inaccessible (they cannot trade with others).
-
-- **Survivors cannot Add/Remove items from inventory**
-
-  Their belongings must be declared when they are first registered in the system. After that they can only change their inventory by means of trading with other survivors.
-
-  The items allowed in the inventory are described above in the first feature.
-
-- **Trade items**:
-
-  Survivors can trade items among themselves.
-
-  To do that, they must respect the price table below, where the value of an item is described in terms of points.
-
-  Both sides of the trade should offer the same amount of points. For example, 1 Water and 1 Medication (1 x 4 + 1 x 2) is worth 6 ammunition (6 x 1) or 2 Food items (2 x 3).
-
-  The trades themselves need not to be stored, but the items must be transferred from one survivor to the other.
-
-| Item         | Points   |
-|--------------|----------|
-| 1 Water      | 4 points |
-| 1 Food       | 3 points |
-| 1 Medication | 2 points |
-| 1 Ammunition | 1 point  |
-
-- **Reports**
-
-  The API must offer the following reports:
-
-    1. Percentage of infected survivors.
-    1. Percentage of non-infected survivors.
-    3. Average amount of each kind of resource by survivor (e.g. 5 waters per survivor)
-    4. Points lost because of infected survivor.
-    5. Genarate Test Scipt for test API.
-
----------------------------------------
-
-#### Task 6
-
-Genarate Web Page for showing of 2 task using HTTPS Protocal 
-
-1. Run Task 1 and Task 2 in difference hosts (recommend using Docker)
-
-2. Create simple page for show and management 2 API over HTTPS Protocal
-
-3. Enable Function Create Read Update Delete data from API.
