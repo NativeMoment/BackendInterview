@@ -14,7 +14,7 @@ However, we need to run engine in the high performance server.
 
 2. We should deploy (run) the API, Queue (not required), and Worker in different hosts.
    
-3. You may use any backend framework.
+3. You may use FastAPI backend framework.
 
 4. You may use any queue (**not required**).
 
