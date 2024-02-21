@@ -64,6 +64,32 @@ We required these, but you may show your skills in these ways:
 - any new technology
 - Use the native stacks or React, React Native stacks.
 
+-----------------------
+#### Task 4 [ RESTfulAPI ]
+1. Import data to database.
+
+2. Change type primary key from "int" to "UUID" and make sturture for supporting 2 languages.
+3. API Path require able to Create, Retrieve, Update, Delete
+   ```
+   - /geograohies
+   - /provinces
+   - /amphures
+   - /tambons
+   ```
+
+4. Generate by ORM (Tortoise ORM) format output genaral method (GET POST PUT PATCH and DELETE) 
+    ```
+    GET — R(etrieve) 
+    POST — C(reate) 
+    PUT — U(pdate) 
+    PATCH - U(pdate)
+    DELETE — D(elete) 
+    ```  
+
+5. Abel search and filter function. using name of content or name parent or child of relation.
+
+6. Genarate Test Scipt for testing API.
+
 ## ============
 ## Installation
 run these command to install this project.
